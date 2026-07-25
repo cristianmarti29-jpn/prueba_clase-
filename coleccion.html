@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Colección Exclusiva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header-coleccion">
+    <a href="index.html" class="btn-volver">← Volver al inicio</a>
+    <h1>Mi Colección Exclusiva</h1>
+  </header>
+
+  <main class="grid-coleccion">
+
+    <!-- Producto 1 -->
+    <article class="tarjeta-producto">
+      <div class="contenedor-img">
+        <img src="ropa_1.jpg" alt="Producto 1">
+      </div>
+      <h2>Pantalon beish</h2>
+      <p class="stock">Disponibles: <strong>15 unidades</strong></p>
+      
+      <div class="tallas">
+        <label>Talla:</label>
+        <select>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div>
+      
+      <button class="btn-comprar">Añadir al carrito</button>
+    </article>
+
+    <!-- Producto 2 (EDICIÓN LIMITADA EN DORADO) -->
+    <article class="tarjeta-producto edicion-limitada">
+      <span class="insignia-dorada">★ Edición Limitada ★</span>
+      <div class="contenedor-img">
+        <img src="ropa_2.jpg" alt="Producto 2 - Edición Limitada">
+      </div>
+      <h2>Hoodie Gold Edition</h2>
+      <p class="stock">Disponibles: <strong>3 unidades</strong> <span class="ultimas">(¡Últimas piezas!)</span></p>
+      
+      <div class="tallas">
+        <label>Talla:</label>
+        <select>
+          <option value="M">M</option>
+          <option value="L">L</option>
+        </select>
+      </div>
+
+      <button class="btn-comprar dorado">Añadir al carrito</button>
+    </article>
+
+    <!-- Producto 3 -->
+    <article class="tarjeta-producto">
+      <div class="contenedor-img">
+        <img src="ropa_3.jpg" alt="Producto 3">
+      </div>
+      <h2>Conjunto blanco </h2>
+      <p class="stock">Disponibles: <strong>8 unidades</strong></p>
+      
+      <div class="tallas">
+        <label>Talla:</label>
+        <select>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+        </select>
+      </div>
+
+      <button class="btn-comprar">Añadir al carrito</button>
+    </article>
+
+    <!-- Producto 4 -->
+    <article class="tarjeta-producto">
+      <div class="contenedor-img">
+        <img src="ropa_4.jpg" alt="Producto 4">
+      </div>
+      <h2>Chaqueta negra grosera</h2>
+      <p class="stock">Disponibles: <strong>10 unidades</strong></p>
+      
+      <div class="tallas">
+        <label>Talla:</label>
+        <select>
+          <option value="30">30</option>
+          <option value="32">32</option>
+          <option value="34">34</option>
+        </select>
+      </div>
+
+      <button class="btn-comprar">Añadir al carrito</button>
+    </article>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
