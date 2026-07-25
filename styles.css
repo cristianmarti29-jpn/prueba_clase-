@@ -227,4 +227,76 @@ body {
 .btn-comprar.dorado {
   background: linear-gradient(45deg, #d4af37, #ffd700);
   color: #000000;
+}/* =========================================
+   FOOTER: PERFILES Y CONTACTO
+   ========================================= */
+.footer-contacto {
+  background-color: #080608;
+  border-top: 1px solid #28242a;
+  padding: 40px 10% 20px 10%;
+  font-family: sans-serif;
+  color: #cccccc;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 30px auto;
+}
+
+.footer-columna h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-columna p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-columna i {
+  color: #ffd700; /* Detalle en dorado */
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 15px;
+}
+
+.redes-sociales a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #181519;
+  color: #ffffff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 1px solid #333;
+  transition: all 0.3s ease;
+}
+
+.redes-sociales a:hover {
+  background-color: #ffd700;
+  color: #000000;
+  transform: translateY(-3px);
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #1a151c;
+  font-size: 0.85rem;
+  color: #666666;
 }
